@@ -59,3 +59,12 @@ You'll gain hands-on experience with Python syntax, function creation, error han
 
 This overview should help guide your development process and keep the project organized and focused.
 
+## code outputs
+#### output 1
+![mp1](https://github.com/user-attachments/assets/396d0062-b6f0-452a-81d2-ff494b832a4e)
+
+#### output 2
+![Screenshot 2024-09-02 123341](https://github.com/user-attachments/assets/0b5e4275-1cdf-46eb-b374-c194487c8726)
+
+
+
