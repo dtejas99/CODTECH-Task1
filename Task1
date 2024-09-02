@@ -1,0 +1,28 @@
+def calculate():
+    # Taking input from the user for the operation and the two numbers
+    operation = input("Enter the operation you want to perform (addition, subtraction, multiplication, division.): ").strip()
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+
+    # Performing the calculation based on the user's choice
+    if operation == 'addition':
+        result = num1 + num2
+        print(f"The result of {num1} + {num2} is: {result}")
+    elif operation == 'subtraction':
+        result = num1 - num2
+        print(f"The result of {num1} - {num2} is: {result}")
+    elif operation == 'multiplication':
+        result = num1 * num2
+        print(f"The result of {num1} * {num2} is: {result}")
+    elif operation == 'division':
+        if num2 != 0:
+            result = num1 / num2
+            print(f"The result of {num1} / {num2} is: {result}")
+        else:
+            print("Error: Division by zero is not allowed.")
+    else:
+        print("Invalid operation. Please choose any one of the operation")
+
+# Calling the function to run the calculator
+calculate()
+
